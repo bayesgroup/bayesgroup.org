@@ -3106,6 +3106,11 @@
     display: block;
 }
 
+#alumni .title,
+#people .title {
+    line-height: 1.5em;
+}
+
 #alumni .image.avatar {
     width: 7em;
     height: 7em;
