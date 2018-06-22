@@ -2502,7 +2502,7 @@
 
             #header > header .image {
                 display: block;
-                margin: 2em auto 3em auto;
+                margin: 1em auto 1em auto;
                 max-width: 15em;
                 border-radius: 0;
             }
@@ -3106,6 +3106,16 @@
     display: block;
 }
 
+#alumni .image.avatar {
+    width: 7em;
+    height: 7em;
+}
+
+#alumni .image.avatar img {
+    min-width: 7em;
+    min-height: 7em;
+}
+
 #people .image.avatar {
     width: 9em;
     height: 9em;
@@ -3117,6 +3127,16 @@
 }
 
 @media screen and (max-width: 736px) {
+
+    #alumni .image.avatar {
+        width: 6em;
+        height: 6em;
+    }
+
+    #alumni .image.avatar img {
+        min-width: 6em;
+        min-height: 6em;
+    }
 
     #people .image.avatar {
         width: 7em;
@@ -3131,6 +3151,16 @@
 }
 
 @media screen and (max-width: 480px) {
+
+    #alumni .image.avatar {
+        width: 4em;
+        height: 4em;
+    }
+
+    #alumni .image.avatar img {
+        min-width: 4em;
+        min-height: 4em;
+    }
 
     #people .image.avatar {
         width: 6em;
