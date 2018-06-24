@@ -3183,8 +3183,8 @@
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
-#page header.major h2 {
-    font-size: 2em;
+#main header.major h2 {
+    font-size: 2.5em;
     line-height: 130%
 }
 
