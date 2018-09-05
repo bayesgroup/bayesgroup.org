@@ -3241,35 +3241,35 @@
 
 .entry-date {
     display: block;
-    width:  50px;
-    height: 60px;
-    text-align: center;
     position: absolute;
     right: 0;
     top: -10px;
+    width: 50px;
+    height: 60px;
+    overflow: hidden;
+    text-align: center;
     border: 1px solid #ddd;
     border-radius: 5px;
-    overflow: hidden;
 }
 
 .entry-date-day {
+    display: block;
     position: absolute;
     top: 15px;
+    left: 0;
+    width: 100%;
     font-size: 25px;
     line-height: 27px;
     height: 30px;
-    background: white;
-    width: 100%;
-    display:  block;
-    left: 0;
     color: #4bbb8b;
+    background: white;
 }
 
 .entry-date-month {
+    display: block;
     position: absolute;
     left: 0;
     bottom: 0;
-    display: block;
     width: 100%;
     line-height: 14px;
     height: 15px;
@@ -3283,8 +3283,8 @@
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
     font-size: 10px;
     line-height: 15px;
-    width: 100%;
-    background: #f5f5f5 linear-gradient(180deg, #f5f5f5 0%, #fff 100%) repeat scroll 0 0
+    background: #f5f5f5 linear-gradient(180deg, #f5f5f5 0%, #fff 100%) repeat scroll 0 0;
 }
