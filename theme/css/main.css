@@ -2034,7 +2034,7 @@
 
     ol {
         list-style: decimal;
-        margin: 0 0 2.25em 0;
+        margin: 0;
         padding-left: 1.25em;
     }
 
@@ -2044,7 +2044,7 @@
 
     ul {
         list-style: disc;
-        margin: 0 0 2.25em 0;
+        margin: 0;
         padding-left: 1em;
     }
 
@@ -3228,15 +3228,22 @@
     line-height: 130%
 }
 
-#news-list li + li {
+#news-list > li + li {
     border-top: 0.2em dashed #f5f5f5;
     padding-top: 2em;
+    margin-top: 1em;
 }
 
 .entry header {
     position: relative;
     padding-right: 60px;
     min-height: 50px;
+}
+
+.entry li li {
+    font-size: 0.8em;
+    line-height: 1.9em;
+    opacity: 0.8;
 }
 
 .entry-date {
