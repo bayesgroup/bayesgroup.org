@@ -12,11 +12,11 @@
 </script>
 
         
-        <title>Variational Dropout Sparsifies Deep Neural Networks – Bayesian Methods Research Group</title>
+        <title>Uncertainty Estimation via Stochastic Batch Normalization – Bayesian Methods Research Group</title>
         <meta property="twitter:site" content="@bayesgroup" />
         <meta property="twitter:card" content="summary" />
-        <meta property="og:title" content="Variational Dropout Sparsifies Deep Neural Networks – Bayesian Methods Research Group" />
-        <meta property="og:description" content="We explore a recently proposed Variational Dropout technique that provided an elegant Bayesian interpretation to Gaussian Dropout. We extend Variational Dropout to the case when dropout rates are unbounded, propose a way to reduce the variance of the..." />
+        <meta property="og:title" content="Uncertainty Estimation via Stochastic Batch Normalization – Bayesian Methods Research Group" />
+        <meta property="og:description" content="In this work, we investigate Batch Normalization technique and propose its probabilistic interpretation. We propose a probabilistic model and show that Batch Normalization maximazes the lower bound of its marginalized log-likelihood. Then, according..." />
         <meta property="og:image" content="http://bayesgroup.ru/theme/images/bayesgroup_opengraph.png" />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -67,17 +67,16 @@
 <section id="publication-page">
 	<div class="container">
 		<header class="major">
-			<h2>Variational Dropout Sparsifies Deep Neural Networks</h2>
+			<h2>Uncertainty Estimation via Stochastic Batch Normalization</h2>
             <span class="publication-links">
-<a href ="https://arxiv.org/abs/1701.05369" class="publication-paper-link" title="Link to paper">paper</a><a href ="https://youtu.be/CZ3fPKlHDoM" class="publication-video-link" title="Link to video">video</a><a href ="https://youtu.be/CZ3fPKlHDoM" class="publication-code-link" title="Link to code">code</a>            </span>
+<a href ="https://arxiv.org/abs/1802.04893" class="publication-paper-link" title="Link to paper">paper</a><a href ="https://youtu.be/KEoVtmf2n6I" class="publication-video-link" title="Link to video">video</a>            </span>
 		</header>
 
-    <p>We explore a recently proposed Variational Dropout technique that provided an elegant Bayesian interpretation to Gaussian Dropout. We extend Variational Dropout to the case when dropout rates are unbounded, propose a way to reduce the variance of the gradient estimator and report first experimental results with individual dropout rates per weight. Interestingly, it leads to extremely sparse solutions both in fully-connected and convolutional layers. This effect is similar to automatic
-relevance determination effect in empirical Bayes but has a number of advantages. We reduce the number of parameters up to 280 times on LeNet architectures and up to 68 times on VGG-like networks with a negligible decrease of accuracy.</p>
+    <p>In this work, we investigate Batch Normalization technique and propose its probabilistic interpretation. We propose a probabilistic model and show that Batch Normalization maximazes the lower bound of its marginalized log-likelihood. Then, according to the new probabilistic model, we design an algorithm which acts consistently during train and test. However, inference becomes computationally inefficient. To reduce memory and computational cost, we propose Stochastic Batch Normalization -- an efficient approximation of proper inference procedure. This method provides us with a scalable uncertainty estimation technique. We demonstrate the performance of Stochastic Batch Normalization on popular architectures (including deep convolutional architectures: VGG-like and ResNets) for MNIST and CIFAR-10 datasets.</p>
 
 
 <div class="video-wrapper ratio-16-9">
-    <iframe width="560" height="315" src="https://youtube.com/embed/CZ3fPKlHDoM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://youtube.com/embed/KEoVtmf2n6I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
     </div>
