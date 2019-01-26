@@ -3323,6 +3323,10 @@
     background-image: url(/theme/images/code.png);
 }
 
+#publication-page .publication-links {
+    margin-bottom: 20px;
+}
+
 #publication-page .publication-links a {
     background-repeat: no-repeat;
     background-size: 16px 16px;
@@ -3335,4 +3339,26 @@
     font-size: inherit;
     width: auto;
     height: auto;
+}
+
+.publication-authors ol {
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.publication-authors ol li {
+    list-style: none;
+    display: inline-block;
+    height: 64px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.publication-authors img {
+    border-radius: 100%;
+    overflow: hidden;
+    max-width: 64px;
+    max-height: 100%;
+    vertical-align: middle;
+    margin-right: 5px;
 }
