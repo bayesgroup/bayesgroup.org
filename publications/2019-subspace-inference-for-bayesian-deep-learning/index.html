@@ -12,12 +12,12 @@
 </script>
 
         
-        <title>Timur Garipov – Bayesian Methods Research Group</title>
+        <title>Subspace Inference for Bayesian Deep Learning – Bayesian Methods Research Group</title>
         <meta property="twitter:site" content="@bayesgroup" />
         <meta property="twitter:card" content="summary" />
-        <meta property="og:title" content="Timur Garipov – Bayesian Methods Research Group" />
-        <meta property="og:description" content="from Moscow, Russia" />
-        <meta property="og:image" content="http://bayesgroup.ru/photos/garipov.jpg" />
+        <meta property="og:title" content="Subspace Inference for Bayesian Deep Learning – Bayesian Methods Research Group" />
+        <meta property="og:description" content="Bayesian inference was once a gold standard for learning with neural networks, providing accurate full predictive distributions and well calibrated uncertainty. However, scaling Bayesian inference techniques to deep neural networks is challenging due..." />
+        <meta property="og:image" content="http://bayesgroup.ru/theme/images/bayesgroup_opengraph.png" />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--[if lte IE 8]><script src="/theme/js/ie/html5shiv.js"></script><![endif]-->
@@ -36,8 +36,8 @@
                 <nav id="nav">
                     <ul>
                                     <li><a href="/about/">About</a></li>
-                                    <li class="active"><a href="/people">People</a></li>
-                                    <li><a href="/publications">Publications</a></li>
+                                    <li><a href="/people">People</a></li>
+                                    <li class="active"><a href="/publications">Publications</a></li>
                                     <li><a href="/teaching">Teaching</a></li>
                                     <li><a href="/admission/">Admission</a></li>
                                     <li><a href="/alumni/">Alumni</a></li>
@@ -64,52 +64,51 @@
 
                 <!-- Main -->
                     <div id="main">
-<section id="page">
+<section id="publication-page">
 	<div class="container">
 		<header class="major">
-			<h2>Timur Garipov</h2>
+			<h2>Subspace Inference for Bayesian Deep Learning</h2>
+            <div class="publication-authors">
+            <ol>
+
+                <li>
+                    <img src="/photos/izmailov.jpg" alt="Photo Pavel Izmailov" /> Pavel Izmailov
+                </li>
+
+                <li>
+                    <img src="/photos/unknown.png" alt="Photo Wesley J. Maddox" /> Wesley J. Maddox
+                </li>
+
+                <li>
+                    <img src="/photos/kirichenko.jpg" alt="Photo Polina Kirichenko" /> Polina Kirichenko
+                </li>
+
+                <li>
+                    <a href="/people/timur-garipov/">
+                    <img src="/photos/garipov.jpg" alt="Photo Timur Garipov" /> Timur Garipov
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/people/dmitry-vetrov/">
+                    <img src="/photos/vetrov.jpg" alt="Photo Dmitry Vetrov" /> Dmitry Vetrov
+                    </a>
+                </li>
+
+                <li>
+                    <img src="/photos/unknown.png" alt="Photo Andrew Gordon Wilson" /> Andrew Gordon Wilson
+                </li>
+            </ol>
+            </div>
 		</header>
 
-    
+    <p>Bayesian inference was once a gold standard for learning with neural networks, providing accurate full predictive distributions and well calibrated uncertainty. However, scaling Bayesian inference techniques to deep neural networks is challenging due to the high dimensionality of the parameter space. In this paper, we construct low-dimensional subspaces of parameter space, such as the first principal components of the stochastic gradient descent (SGD) trajectory, which contain diverse sets of high performing models. In these subspaces, we are able to apply elliptical slice sampling and variational inference, which struggle in the full parameter space. We show that Bayesian model averaging over the induced posterior in these subspaces produces accurate predictions and well calibrated predictive uncertainty for both regression and image classification. </p>
 
-    <h4>Recent Publications</h4>
-    <ul>
-            <li>
-                <a href="/publications/2019-subspace-inference-for-bayesian-deep-learning/">
-                Subspace Inference for Bayesian Deep Learning (2019)
-                </a>
-            </li>
-            <li>
-                <a href="/publications/2018-loss-surfaces-mode-connectivity-and-fast-ensembling-of-dnns/">
-                Loss Surfaces, Mode Connectivity, and Fast Ensembling of DNNs (2018)
-                </a>
-            </li>
-            <li>
-                <a href="/publications/#pub-n685">
-                Fast Uncertainty Estimates and Bayesian Model Averaging of DNNs (2018)
-                </a>
-            </li>
-            <li>
-                <a href="/publications/#pub-n680">
-                Improving Stability in Deep Reinforcement Learning with Weight Averaging (2018)
-                </a>
-            </li>
-            <li>
-                <a href="/publications/#pub-n670">
-                Averaging Weights Leads to Wider Optima and Better Generalization (2018)
-                </a>
-            </li>
-            <li>
-                <a href="/publications/#pub-n590">
-                Bayesian Incremental Learning for Deep Neural Networks (2018)
-                </a>
-            </li>
-            <li>
-                <a href="/publications/#pub-n400">
-                Ultimate tensorization: convolutions and FC alike (2016)
-                </a>
-            </li>
-    </ul>
+            <div class="publication-links">
+<a href ="https://arxiv.org/abs/1907.07504" class="publication-paper-link" title="Link to paper">paper</a>            </div>
+
+
+
     </div>
 </section>
                     </div>
