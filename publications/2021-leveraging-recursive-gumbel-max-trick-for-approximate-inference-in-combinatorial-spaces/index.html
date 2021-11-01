@@ -12,12 +12,12 @@
 </script>
 
         
-        <title>Denis Rakitin – Bayesian Methods Research Group</title>
+        <title>Leveraging Recursive Gumbel-Max Trick for Approximate Inference in Combinatorial Spaces – Bayesian Methods Research Group</title>
         <meta property="twitter:site" content="@bayesgroup" />
         <meta property="twitter:card" content="summary" />
-        <meta property="og:title" content="Denis Rakitin – Bayesian Methods Research Group" />
-        <meta property="og:description" content="from Moscow, Russia" />
-        <meta property="og:image" content="http://bayesgroup.ru/photos/rakitin.jpg" />
+        <meta property="og:title" content="Leveraging Recursive Gumbel-Max Trick for Approximate Inference in Combinatorial Spaces – Bayesian Methods Research Group" />
+        <meta property="og:description" content="Structured latent variables allow incorporating meaningful prior knowledge into deep learning models. However, learning with such variables remains challenging because of their discrete nature. Nowadays, the standard learning approach is to define a..." />
+        <meta property="og:image" content="http://bayesgroup.ru/theme/images/bayesgroup_opengraph.png" />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--[if lte IE 8]><script src="/theme/js/ie/html5shiv.js"></script><![endif]-->
@@ -36,8 +36,8 @@
                 <nav id="nav">
                     <ul>
                                 <li><a href="/about/">About</a></li>
-                                <li class="active"><a href="/people">People</a></li>
-                                <li><a href="/publications">Publications</a></li>
+                                <li><a href="/people">People</a></li>
+                                <li class="active"><a href="/publications">Publications</a></li>
                                 <li><a href="/teaching">Teaching</a></li>
                                 <li><a href="/admission/">Admission</a></li>
                                 <li><a href="/alumni/">Alumni</a></li>
@@ -64,22 +64,51 @@
 
                 <!-- Main -->
                     <div id="main">
-<section id="page">
+<section id="publication-page">
 	<div class="container">
 		<header class="major">
-			<h2>Denis Rakitin</h2>
+			<h2>Leveraging Recursive Gumbel-Max Trick for Approximate Inference in Combinatorial Spaces</h2>
+            <div class="publication-authors">
+            <ol>
+
+                <li class="author">
+                    <a href="/people/kirill-struminsky/">
+                    <img src="/photos/struminsky.jpg" alt="Photo Kirill Struminsky" /> Kirill Struminsky
+                    </a>
+                </li>
+
+                <li class="author">
+                    <a href="https://agadetsky.github.io">
+                    <img src="/photos/gadetsky.jpg" alt="Photo Artyom Gadetsky" /> Artyom Gadetsky
+                    </a>
+                </li>
+
+                <li class="author">
+                    <a href="/people/denis-rakitin/">
+                    <img src="/photos/rakitin.jpg" alt="Photo Denis Rakitin" /> Denis Rakitin
+                    </a>
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Danil Karpushkin" /> Danil Karpushkin
+                </li>
+
+                <li class="author">
+                    <a href="/people/dmitry-vetrov/">
+                    <img src="/photos/vetrov.jpg" alt="Photo Dmitry Vetrov" /> Dmitry Vetrov
+                    </a>
+                </li>
+            </ol>
+            </div>
 		</header>
 
-    
+    <p>Structured latent variables allow incorporating meaningful prior knowledge into deep learning models. However, learning with such variables remains challenging because of their discrete nature. Nowadays, the standard learning approach is to define a latent variable as a perturbed algorithm output and to use a differentiable surrogate for training. In general, the surrogate puts additional constraints on the model and inevitably leads to biased gradients. To alleviate these shortcomings, we extend the Gumbel-Max trick to define distributions over structured domains. We avoid the differentiable surrogates by leveraging the score function estimators for optimization. In particular, we highlight a family of recursive algorithms with a common feature we call stochastic invariant. The feature allows us to construct reliable gradient estimates and control variates without additional constraints on the model. In our experiments, we consider various structured latent variable models and achieve results competitive with relaxation-based counterparts.</p>
 
-    <h4>Recent Publications</h4>
-    <ul>
-            <li>
-                <a href="/publications/2021-leveraging-recursive-gumbel-max-trick-for-approximate-inference-in-combinatorial-spaces/">
-                Leveraging Recursive Gumbel-Max Trick for Approximate Inference in Combinatorial Spaces (NeurIPS 2021)
-                </a>
-            </li>
-    </ul>
+            <div class="publication-links">
+<a href ="https://arxiv.org/abs/2110.15072" class="publication-paper-link" title="Link to paper">paper</a>            </div>
+
+
+
     </div>
 </section>
                     </div>
