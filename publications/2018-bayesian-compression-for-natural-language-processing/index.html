@@ -12,12 +12,12 @@
 </script>
 
         
-        <title>Maxim Kodryan – Bayesian Methods Research Group</title>
+        <title>Bayesian Compression for Natural Language Processing (EMNLP 2018) – Bayesian Methods Research Group</title>
         <meta property="twitter:site" content="@bayesgroup" />
         <meta property="twitter:card" content="summary" />
-        <meta property="og:title" content="Maxim Kodryan – Bayesian Methods Research Group" />
-        <meta property="og:description" content="from Moscow, Russia" />
-        <meta property="og:image" content="http://bayesgroup.ru/photos/kodryan.jpg" />
+        <meta property="og:title" content="Bayesian Compression for Natural Language Processing (EMNLP 2018) – Bayesian Methods Research Group" />
+        <meta property="og:description" content="In natural language processing, a lot of the tasks are successfully solved with recurrent neural networks, but such models have a huge number of parameters. The majority of these parameters are often concentrated in the embedding layer, which size..." />
+        <meta property="og:image" content="http://bayesgroup.ru/theme/images/bayesgroup_opengraph.png" />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--[if lte IE 8]><script src="/theme/js/ie/html5shiv.js"></script><![endif]-->
@@ -36,8 +36,8 @@
                 <nav id="nav">
                     <ul>
                                 <li><a href="/about/">About</a></li>
-                                <li class="active"><a href="/people">People</a></li>
-                                <li><a href="/publications">Publications</a></li>
+                                <li><a href="/people">People</a></li>
+                                <li class="active"><a href="/publications">Publications</a></li>
                                 <li><a href="/teaching">Teaching</a></li>
                                 <li><a href="/admission/">Admission</a></li>
                                 <li><a href="/alumni/">Alumni</a></li>
@@ -64,25 +64,41 @@
 
                 <!-- Main -->
                     <div id="main">
-<section id="page">
+<section id="publication-page">
 	<div class="container">
 		<header class="major">
-			<h2>Maxim Kodryan</h2>
+			<h2><span class="ribbon-container"><span class="ribbon-left ribbon-green" title="2018 Conference on Empirical Methods in Natural Language Processing">EMNLP 2018</span></span> Bayesian Compression for Natural Language Processing</h2>
+            <div class="publication-authors">
+            <ol>
+
+                <li class="author">
+                    <a href="https://nadiinchi.github.io/">
+                    <img src="/photos/chirkova.jpg" alt="Photo Nadezhda Chirkova" /> Nadezhda Chirkova
+                    </a>
+                </li>
+
+                <li class="author">
+                    <a href="/people/ekaterina-lobacheva/">
+                    <img src="/photos/lobacheva.jpg" alt="Photo Ekaterina Lobacheva" /> Ekaterina Lobacheva
+                    </a>
+                </li>
+
+                <li class="author">
+                    <a href="/people/dmitry-vetrov/">
+                    <img src="/photos/vetrov.jpg" alt="Photo Dmitry Vetrov" /> Dmitry Vetrov
+                    </a>
+                </li>
+            </ol>
+            </div>
 		</header>
 
-    
+    <p>In natural language processing, a lot of the tasks are successfully solved with recurrent neural networks, but such models have a huge number of parameters. The majority of these parameters are often concentrated in the embedding layer, which size grows proportionally to the vocabulary length. We propose a Bayesian sparsification technique for RNNs which allows compressing the RNN dozens or hundreds of times without time-consuming hyperparameters tuning. We also generalize the model for vocabulary sparsification to filter out unnecessary words and compress the RNN even further. We show that the choice of the kept words is interpretable.</p>
 
-    <h4>Recent Publications</h4>
-    <ul id="recent-publications-list">
-            <li>
-                <b><a href="/publications/2020-on-power-laws-in-deep-ensembles-full/">On Power Laws in Deep Ensembles</a></b>
-                (2020)
-<span class="ribbon-container"><span class="ribbon-right ribbon-teal" title="Thirty-fourth Conference on Neural Information Processing Systems">NeurIPS 2020</span></span>            </li>
-            <li>
-                <b><a href="/publications/#pub-n1000">On Power Laws in Deep Ensembles</a></b>
-                (2020)
-            </li>
-    </ul>
+            <div class="publication-links">
+<a href ="https://aclanthology.org/D18-1319/" class="publication-paper-link" title="Link to paper">paper</a>            </div>
+
+
+
     </div>
 </section>
                     </div>

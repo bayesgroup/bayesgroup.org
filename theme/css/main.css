@@ -3376,38 +3376,62 @@
 .ribbon-container {
     display: inline-block;
     position: relative;
-    font-size: 0.5em;
     line-height: 100%;
-    padding-right: 0.5em;
-    vertical-align: middle;
 }
 
-.ribbon {
-    padding: 10px 10px;
+#recent-publications-list .ribbon-container { font-size: 0.8em }
+h2 .ribbon-container { font-size: 0.5em; vertical-align: middle; margin-left: -0.5em }
+h2 .ribbon-left { padding: 0.5em }
+
+.ribbon-left,
+.ribbon-right {
+    background: #eee;
+    display: block;
+    padding: 0.3em 0.5em;
     white-space: nowrap;
     font-weight: normal;
-    text-shadow: 2px 2px 2px rgb(0 0 0 / 10%);
 }
+
+.ribbon-left { border-right: 0.2em solid #ccc; margin-right: 0.2em }
+.ribbon-right { border-left: 0.2em solid #ccc; margin-left: 0.2em }
+
+.ribbon-right:before, .ribbon-right:after,
+.ribbon-left:before, .ribbon-left:after {
+    content: '';
+    position: absolute;
+}
+
+.ribbon-left:before, .ribbon-left:after {
+    border-left: 0.5em solid transparent;
+    left: -0.5em;
+}
+.ribbon-right:before, .ribbon-right:after {
+    border-right: 0.5em solid transparent;
+    right: -0.5em;
+}
+
+.ribbon-left:before { top: 0; border-top: 1em solid #eee }
+.ribbon-left:after { bottom: 0; border-bottom: 1em solid #eee }
+
+.ribbon-right:before { top: 0; border-top: 1em solid #eee }
+.ribbon-right:after { bottom: 0; border-bottom: 1em solid #eee }
 
 .ribbon-green {
     background: #4bbb8b;
     color: #fff;
-    border-right: 5px solid #8ad9b7;
+    border-right-color: #8ad9b7;
+    border-left-color: #8ad9b7;
+    text-shadow: 2px 2px 2px rgb(0 0 0 / 10%);
 }
+.ribbon-green:before { border-top-color: #4bbb8b }
+.ribbon-green:after { border-bottom-color: #4bbb8b }
 
-.ribbon:before, .ribbon:after {
-    content: '';
-    position: absolute;
-    left: -9px;
-    border-left: 10px solid transparent;
+.ribbon-teal {
+    background: #469e9a;
+    color: #fff;
+    border-right-color: #69b1bf;
+    border-left-color: #69b1bf;
+    text-shadow: 2px 2px 2px rgb(0 0 0 / 10%);
 }
-
-.ribbon:before {
-    top: 0;
-    border-top: 27px solid #4bbb8b;
-}
-
-.ribbon:after {
-    bottom: 0;
-    border-bottom: 27px solid #4bbb8b;
-}
+.ribbon-teal:before { border-top-color: #469e9a }
+.ribbon-teal:after { border-bottom-color: #469e9a }

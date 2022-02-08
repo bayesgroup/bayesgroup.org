@@ -12,12 +12,12 @@
 </script>
 
         
-        <title>Maxim Kodryan – Bayesian Methods Research Group</title>
+        <title>Averaging Weights Leads to Wider Optima and Better Generalization (UAI 2018) – Bayesian Methods Research Group</title>
         <meta property="twitter:site" content="@bayesgroup" />
         <meta property="twitter:card" content="summary" />
-        <meta property="og:title" content="Maxim Kodryan – Bayesian Methods Research Group" />
-        <meta property="og:description" content="from Moscow, Russia" />
-        <meta property="og:image" content="http://bayesgroup.ru/photos/kodryan.jpg" />
+        <meta property="og:title" content="Averaging Weights Leads to Wider Optima and Better Generalization (UAI 2018) – Bayesian Methods Research Group" />
+        <meta property="og:description" content="Deep neural networks are typically trained by optimizing a loss function with an SGD variant, in conjunction with a decaying learning rate, until convergence. We show that simple averaging of multiple points along the trajectory of SGD, with a..." />
+        <meta property="og:image" content="http://bayesgroup.ru/theme/images/bayesgroup_opengraph.png" />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--[if lte IE 8]><script src="/theme/js/ie/html5shiv.js"></script><![endif]-->
@@ -36,8 +36,8 @@
                 <nav id="nav">
                     <ul>
                                 <li><a href="/about/">About</a></li>
-                                <li class="active"><a href="/people">People</a></li>
-                                <li><a href="/publications">Publications</a></li>
+                                <li><a href="/people">People</a></li>
+                                <li class="active"><a href="/publications">Publications</a></li>
                                 <li><a href="/teaching">Teaching</a></li>
                                 <li><a href="/admission/">Admission</a></li>
                                 <li><a href="/alumni/">Alumni</a></li>
@@ -64,25 +64,51 @@
 
                 <!-- Main -->
                     <div id="main">
-<section id="page">
+<section id="publication-page">
 	<div class="container">
 		<header class="major">
-			<h2>Maxim Kodryan</h2>
+			<h2><span class="ribbon-container"><span class="ribbon-left ribbon-green" title="Conference on Uncertainty in Artificial Intelligence 2018">UAI 2018</span></span> Averaging Weights Leads to Wider Optima and Better Generalization</h2>
+            <div class="publication-authors">
+            <ol>
+
+                <li class="author-alumni">
+                    <a href="/alumni/#pavel-izmailov">
+                    <img src="/photos/izmailov.jpg" alt="Photo Pavel Izmailov" /> Pavel Izmailov
+                    </a>
+                </li>
+
+                <li class="author-alumni">
+                    <a href="/alumni/#dmitry-podoprikhin">
+                    <img src="/photos/podoprikhin.jpg" alt="Photo Dmitry Podoprikhin" /> Dmitry Podoprikhin
+                    </a>
+                </li>
+
+                <li class="author-alumni">
+                    <a href="/alumni/#timur-garipov">
+                    <img src="/photos/garipov.jpg" alt="Photo Timur Garipov" /> Timur Garipov
+                    </a>
+                </li>
+
+                <li class="author">
+                    <a href="/people/dmitry-vetrov/">
+                    <img src="/photos/vetrov.jpg" alt="Photo Dmitry Vetrov" /> Dmitry Vetrov
+                    </a>
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Andrew Gordon Wilson" /> Andrew Gordon Wilson
+                </li>
+            </ol>
+            </div>
 		</header>
 
-    
+    <p>Deep neural networks are typically trained by optimizing a loss function with an SGD variant, in conjunction with a decaying learning rate, until convergence. We show that simple averaging of multiple points along the trajectory of SGD, with a cyclical or constant learning rate, leads to better generalization than conventional training, with essentially no computational overhead. We interpret this result by analyzing the geometry of SGD trajectories over the loss surfaces of deep neural networks. Moreover, we show that this Stochastic Weight Averaging (SWA) procedure finds much broader optima than SGD, and approximates the recent Fast Geometric Ensembling (FGE) approach with a single model. Using SWA we achieve notable improvement in test accuracy over conventional SGD training on a range of state-of-the-art residual networks, PyramidNets, DenseNets, and ShakeShake networks on CIFAR-10, CIFAR-100, and ImageNet. In short, SWA is extremely easy to implement, improves generalization in deep learning, and has almost no computational overhead.</p>
 
-    <h4>Recent Publications</h4>
-    <ul id="recent-publications-list">
-            <li>
-                <b><a href="/publications/2020-on-power-laws-in-deep-ensembles-full/">On Power Laws in Deep Ensembles</a></b>
-                (2020)
-<span class="ribbon-container"><span class="ribbon-right ribbon-teal" title="Thirty-fourth Conference on Neural Information Processing Systems">NeurIPS 2020</span></span>            </li>
-            <li>
-                <b><a href="/publications/#pub-n1000">On Power Laws in Deep Ensembles</a></b>
-                (2020)
-            </li>
-    </ul>
+            <div class="publication-links">
+<a href ="https://arxiv.org/abs/1803.05407" class="publication-paper-link" title="Link to paper">paper</a>            </div>
+
+
+
     </div>
 </section>
                     </div>
