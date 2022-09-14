@@ -3435,3 +3435,7 @@ h2 .ribbon-left { padding: 0.5em }
 }
 .ribbon-teal:before { border-top-color: #469e9a }
 .ribbon-teal:after { border-bottom-color: #469e9a }
+
+.paginator { display: block; position: relative; text-align: center; border-top: 3px solid #f0f0f0; margin-top:1em; padding-top:1em }
+.paginator-new { display: inline-block; position: absolute; left: 1em }
+.paginator-old { display: inline-block; position: absolute; right: 1em }
