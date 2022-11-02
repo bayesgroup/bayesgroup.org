@@ -2019,7 +2019,9 @@
                 width: 100%;
             }
 
+        .avatar-highlighter,
         .image.avatar {
+            display: inline-block;
             border-radius: 100%;
             overflow: hidden;
         }
@@ -3111,6 +3113,7 @@
     line-height: 1.5em;
 }
 
+#alumni .avatar-highlighter,
 #alumni .image.avatar {
     width: 7em;
     height: 7em;
@@ -3120,6 +3123,10 @@
     min-width: 7em;
     min-height: 7em;
 }
+
+:target .avatar-highlighter { outline: 3px solid #4bbb8b }
+:target .avatar-highlighter .image.avatar { border: 3px solid #fff }
+:target .avatar-highlighter .image.avatar img { margin: -3px 0 0 -3px }
 
 #people .image.avatar {
     width: 9em;
@@ -3133,6 +3140,7 @@
 
 @media screen and (max-width: 736px) {
 
+    #alumni .avatar-highlighter,
     #alumni .image.avatar {
         width: 6em;
         height: 6em;
@@ -3157,6 +3165,7 @@
 
 @media screen and (max-width: 480px) {
 
+    #alumni .avatar-highlighter,
     #alumni .image.avatar {
         width: 4em;
         height: 4em;
