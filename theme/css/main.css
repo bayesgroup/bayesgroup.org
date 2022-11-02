@@ -3240,6 +3240,14 @@
     min-height: 50px;
 }
 
+.entry-content img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.entry-content img.teaser-medium { max-width: 80% }
+
 .entry li li {
     font-size: 0.8em;
     line-height: 1.9em;
