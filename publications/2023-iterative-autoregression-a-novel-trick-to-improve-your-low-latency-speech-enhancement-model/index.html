@@ -12,12 +12,12 @@
 </script>
 
         
-        <title>Aibek Alanov – Bayesian Methods Research Group</title>
+        <title>Iterative autoregression: a novel trick to improve your low-latency speech enhancement model (Interspeech 2023) – Bayesian Methods Research Group</title>
         <meta property="twitter:site" content="@bayesgroup" />
         <meta property="twitter:card" content="summary" />
-        <meta property="og:title" content="Aibek Alanov – Bayesian Methods Research Group" />
-        <meta property="og:description" content="from Moscow, Russia" />
-        <meta property="og:image" content="http://bayesgroup.ru/photos/alanov.jpg" />
+        <meta property="og:title" content="Iterative autoregression: a novel trick to improve your low-latency speech enhancement model (Interspeech 2023) – Bayesian Methods Research Group" />
+        <meta property="og:description" content="Streaming models are an essential component of real-time speech enhancement tools. The streaming regime constrains speech enhancement models to use only a tiny context of future information. As a result, the low-latency streaming setup is generally..." />
+        <meta property="og:image" content="http://bayesgroup.ru/theme/images/bayesgroup_opengraph.png" />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--[if lte IE 8]><script src="/theme/js/ie/html5shiv.js"></script><![endif]-->
@@ -36,8 +36,8 @@
                 <nav id="nav">
                     <ul>
                                 <li><a href="/about/">About</a></li>
-                                <li class="active"><a href="/people">People</a></li>
-                                <li><a href="/publications">Publications</a></li>
+                                <li><a href="/people">People</a></li>
+                                <li class="active"><a href="/publications">Publications</a></li>
                                 <li><a href="/teaching">Teaching</a></li>
                                 <li><a href="/admission/">Admission</a></li>
                                 <li><a href="/alumni/">Alumni</a></li>
@@ -64,29 +64,47 @@
 
                 <!-- Main -->
                     <div id="main">
-<section id="page">
+<section id="publication-page">
 	<div class="container">
 		<header class="major">
-			<h2>Aibek Alanov</h2>
+			<h2><span class="ribbon-container"><span class="ribbon-left ribbon-green" title="24th INTERSPEECH Conference">Interspeech 2023</span></span> Iterative autoregression: a novel trick to improve your low-latency speech enhancement model</h2>
+            <div class="publication-authors">
+            <ol>
+
+                <li class="author-alumni">
+                    <a href="/alumni/#pavel-andreev">
+                    <img src="/photos/andreev.jpg" alt="Photo Pavel Andreev" /> Pavel Andreev
+                    </a>
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Nicholas Babaev" /> Nicholas Babaev
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Ivan Shchekotov" /> Ivan Shchekotov
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Azat Saginbaev" /> Azat Saginbaev
+                </li>
+
+                <li class="author">
+                    <a href="/people/aibek-alanov/">
+                    <img src="/photos/alanov.jpg" alt="Photo Aibek Alanov" /> Aibek Alanov
+                    </a>
+                </li>
+            </ol>
+            </div>
 		</header>
 
-    
+    <p>Streaming models are an essential component of real-time speech enhancement tools. The streaming regime constrains speech enhancement models to use only a tiny context of future information. As a result, the low-latency streaming setup is generally considered a challenging task and has a significant negative impact on the model's quality. However, the sequential nature of streaming generation offers a natural possibility for autoregression, that is, utilizing previous predictions while making current ones. The conventional method for training autoregressive models is teacher forcing, but its primary drawback lies in the training-inference mismatch that can lead to a substantial degradation in quality. In this study, we propose a straightforward yet effective alternative technique for training autoregressive low-latency speech enhancement models. We demonstrate that the proposed approach leads to stable improvement across diverse architectures and training scenarios.</p>
 
-    <h4>Recent Publications</h4>
-    <ul id="recent-publications-list">
-            <li>
-                <b><a href="/publications/2023-iterative-autoregression-a-novel-trick-to-improve-your-low-latency-speech-enhancement-model/">Iterative autoregression: a novel trick to improve your low-latency speech enhancement model</a></b>
-                (2023)
-<span class="ribbon-container"><span class="ribbon-right ribbon-teal" title="24th INTERSPEECH Conference">Interspeech 2023</span></span>            </li>
-            <li>
-                <b><a href="/publications/2022-hyperdomainnet-universal-domain-adaptation-for-generative-adversarial-networks/">HyperDomainNet: Universal Domain Adaptation for Generative Adversarial Network</a></b>
-                (2022)
-<span class="ribbon-container"><span class="ribbon-right ribbon-teal" title="Thirty-sixth Conference on Neural Information Processing Systems">NeurIPS 2022</span></span>            </li>
-            <li>
-                <b><a href="/publications/2022-ffc-se-fast-fourier-convolution-for-speech-enhancement/">FFC-SE: Fast Fourier Convolution for Speech Enhancement</a></b>
-                (2022)
-<span class="ribbon-container"><span class="ribbon-right ribbon-teal" title="23rd INTERSPEECH Conference">INTERSPEECH 2022</span></span>            </li>
-    </ul>
+            <div class="publication-links">
+<a href ="https://www.isca-speech.org/archive/pdfs/interspeech_2023/andreev23_interspeech.pdf" class="publication-paper-link" title="Link to paper">paper</a>            </div>
+
+
+
     </div>
 </section>
                     </div>
