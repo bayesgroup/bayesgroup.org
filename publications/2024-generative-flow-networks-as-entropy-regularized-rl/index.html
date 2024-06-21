@@ -12,12 +12,12 @@
 </script>
 
         
-        <title>Nikita Morozov – Bayesian Methods Research Group</title>
+        <title>Generative Flow Networks as Entropy-Regularized RL (AISTATS 2024) – Bayesian Methods Research Group</title>
         <meta property="twitter:site" content="@bayesgroup" />
         <meta property="twitter:card" content="summary" />
-        <meta property="og:title" content="Nikita Morozov – Bayesian Methods Research Group" />
-        <meta property="og:description" content="from Bremen, Germany and Moscow, Russia" />
-        <meta property="og:image" content="http://bayesgroup.ru/photos/nikita-morozov.jpg" />
+        <meta property="og:title" content="Generative Flow Networks as Entropy-Regularized RL (AISTATS 2024) – Bayesian Methods Research Group" />
+        <meta property="og:description" content="The recently proposed generative flow networks (GFlowNets) are a method of training a policy to sample compositional discrete objects with probabilities proportional to a given reward via a sequence of actions. GFlowNets exploit the sequential nature..." />
+        <meta property="og:image" content="http://bayesgroup.ru/theme/images/bayesgroup_opengraph.png" />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--[if lte IE 8]><script src="/theme/js/ie/html5shiv.js"></script><![endif]-->
@@ -36,8 +36,8 @@
                 <nav id="nav">
                     <ul>
                                 <li><a href="/about/">About</a></li>
-                                <li class="active"><a href="/people">People</a></li>
-                                <li><a href="/publications">Publications</a></li>
+                                <li><a href="/people">People</a></li>
+                                <li class="active"><a href="/publications">Publications</a></li>
                                 <li><a href="/teaching">Teaching</a></li>
                                 <li><a href="/admission/">Admission</a></li>
                                 <li><a href="/alumni/">Alumni</a></li>
@@ -64,21 +64,43 @@
 
                 <!-- Main -->
                     <div id="main">
-<section id="page">
+<section id="publication-page">
 	<div class="container">
 		<header class="major">
-			<h2>Nikita Morozov</h2>
+			<h2><span class="ribbon-container"><span class="ribbon-left ribbon-green" title="Twenty-seventh International Conference on Artificial Intelligence and Statistics">AISTATS 2024</span></span> Generative Flow Networks as Entropy-Regularized RL</h2>
+            <div class="publication-authors">
+            <ol>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Daniil Tiapkin" /> Daniil Tiapkin
+                </li>
+
+                <li class="author">
+                    <a href="/people/nikita-morozov/">
+                    <img src="/photos/nikita-morozov.jpg" alt="Photo Nikita Morozov" /> Nikita Morozov
+                    </a>
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Alexey Naumov" /> Alexey Naumov
+                </li>
+
+                <li class="author">
+                    <a href="/people/dmitry-vetrov/">
+                    <img src="/photos/vetrov.jpg" alt="Photo Dmitry Vetrov" /> Dmitry Vetrov
+                    </a>
+                </li>
+            </ol>
+            </div>
 		</header>
 
-    
+    <p>The recently proposed generative flow networks (GFlowNets) are a method of training a policy to sample compositional discrete objects with probabilities proportional to a given reward via a sequence of actions. GFlowNets exploit the sequential nature of the problem, drawing parallels with reinforcement learning (RL). Our work extends the connection between RL and GFlowNets to a general case. We demonstrate how the task of learning a generative flow network can be efficiently redefined as an entropy-regularized RL problem with a specific reward and regularizer structure. Furthermore, we illustrate the practical efficiency of this reformulation by applying standard soft RL algorithms to GFlowNet training across several probabilistic modeling tasks. Contrary to previously reported results, we show that entropic RL approaches can be competitive against established GFlowNet training methods. This perspective opens a direct path for integrating RL principles into the realm of generative flow networks.</p>
 
-    <h4>Recent Publications</h4>
-    <ul id="recent-publications-list">
-            <li>
-                <b><a href="/publications/2024-generative-flow-networks-as-entropy-regularized-rl/">Generative Flow Networks as Entropy-Regularized RL</a></b>
-                (2024)
-<span class="ribbon-container"><span class="ribbon-right ribbon-teal" title="Twenty-seventh International Conference on Artificial Intelligence and Statistics">AISTATS 2024</span></span>            </li>
-    </ul>
+            <div class="publication-links">
+<a href ="https://proceedings.mlr.press/v238/tiapkin24a/tiapkin24a.pdf" class="publication-paper-link" title="Link to paper">paper</a><a href ="https://github.com/d-tiapkin/gflownet-rl" class="publication-code-link" title="Link to code">code</a>            </div>
+
+
+
     </div>
 </section>
                     </div>
