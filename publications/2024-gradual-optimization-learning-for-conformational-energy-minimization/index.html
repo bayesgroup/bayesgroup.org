@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127803291-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127803291-1');
+</script>
+
+        
+        <title>Gradual Optimization Learning for Conformational Energy Minimization (ICLR 2024) – Bayesian Methods Research Group</title>
+        <meta property="twitter:site" content="@bayesgroup" />
+        <meta property="twitter:card" content="summary" />
+        <meta property="og:title" content="Gradual Optimization Learning for Conformational Energy Minimization (ICLR 2024) – Bayesian Methods Research Group" />
+        <meta property="og:description" content="Molecular conformation optimization is crucial to computer-aided drug discovery and materials design. Traditional energy minimization techniques rely on iterative optimization methods that use molecular forces calculated by a physical simulator..." />
+        <meta property="og:image" content="http://bayesgroup.ru/theme/images/bayesgroup_opengraph.png" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lte IE 8]><script src="/theme/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="/theme/css/ie8.css" /><![endif]-->
+</head>
+
+<body>
+        <!-- Header -->
+            <section id="header">
+                <header>
+                    <span class="image"><a href="/"><img src="/theme/images/bayesgroup.png" alt="" /></a></span>
+                    <h1 id="logo">Bayesian Methods Research Group</h1>
+                    <p>from Bremen, Germany <br/>and Moscow, Russia <!-- with love :-) --></p>
+                </header>
+                <nav id="nav">
+                    <ul>
+                                <li><a href="/about/">About</a></li>
+                                <li><a href="/people">People</a></li>
+                                <li class="active"><a href="/publications">Publications</a></li>
+                                <li><a href="/teaching">Teaching</a></li>
+                                <li><a href="/admission/">Admission</a></li>
+                                <li><a href="/alumni/">Alumni</a></li>
+                    </ul>
+                </nav>
+                <footer>
+                    <ul class="icons">
+                        <li><a href="https://twitter.com/bayesgroup" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                        <li><a href="https://www.youtube.com/@bayesgroup" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+                        <li><a href="mailto:info@bayesgroup.ru" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                    </ul>
+                </footer>
+            </section>
+
+        <!-- Wrapper -->
+            <div id="wrapper">
+
+                <!-- Group Photo -->
+                    <section id="photo">
+                        <div class="container">
+                            <span class="image fit"><img src="/theme/images/banner.jpg" alt="" /></span>
+                         </div>
+                    </section>
+
+                <!-- Main -->
+                    <div id="main">
+<section id="publication-page">
+	<div class="container">
+		<header class="major">
+			<h2><span class="ribbon-container"><span class="ribbon-left ribbon-green" title="The Twelfth International Conference on Learning Representations">ICLR 2024</span></span> Gradual Optimization Learning for Conformational Energy Minimization</h2>
+            <div class="publication-authors">
+            <ol>
+
+                <li class="author-alumni">
+                    <a href="/alumni/#artem-tsypin">
+                    <img src="/photos/tsypin.jpg" alt="Photo Artem Tsypin" /> Artem Tsypin
+                    </a>
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Leonid Ugadiarov" /> Leonid Ugadiarov
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Kuzma Khrabrov" /> Kuzma Khrabrov
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Alexander Telepov" /> Alexander Telepov
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Egor Rumiantsev" /> Egor Rumiantsev
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Alexey Skrynnik" /> Alexey Skrynnik
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Aleksandr Panov" /> Aleksandr Panov
+                </li>
+
+                <li class="author">
+                    <a href="/people/dmitry-vetrov/">
+                    <img src="/photos/vetrov.jpg" alt="Photo Dmitry Vetrov" /> Dmitry Vetrov
+                    </a>
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Elena Tutubalina" /> Elena Tutubalina
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Artur Kadurin" /> Artur Kadurin
+                </li>
+            </ol>
+            </div>
+		</header>
+
+    <p>Molecular conformation optimization is crucial to computer-aided drug discovery and materials design. Traditional energy minimization techniques rely on iterative optimization methods that use molecular forces calculated by a physical simulator (oracle) as anti-gradients. However, this is a computationally expensive approach that requires many interactions with a physical simulator. One way to accelerate this procedure is to replace the physical simulator with a neural network. Despite recent progress in neural networks for molecular conformation energy prediction, such models are prone to errors due to distribution shift, leading to inaccurate energy minimization. We find that the quality of energy minimization with neural networks can be improved by providing optimization trajectories as additional training data. Still, obtaining complete optimization trajectories demands a lot of additional computations. To reduce the required additional data, we present the Gradual Optimization Learning Framework (GOLF) for energy minimization with neural networks. The framework consists of an efficient data-collecting scheme and an external optimizer. The external optimizer utilizes gradients from the energy prediction model to generate optimization trajectories, and the data-collecting scheme selects additional training data to be processed by the physical simulator. Our results demonstrate that the neural network trained with GOLF performs \textit{on par} with the oracle on a benchmark of diverse drug-like molecules using significantly less additional data.</p>
+
+            <div class="publication-links">
+<a href ="https://openreview.net/pdf?id=FMMF1a9ifL" class="publication-paper-link" title="Link to paper">paper</a><a href ="https://github.com/AIRI-Institute/GOLF" class="publication-code-link" title="Link to code">code</a>            </div>
+
+
+
+    </div>
+</section>
+                    </div>
+
+                <!-- Footer -->
+                    <section id="footer">
+                        <div class="container">
+                            <ul class="copyright">
+                                <li>Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                            </ul>
+                        </div>
+                    </section>
+
+            </div>
+
+        <!-- Scripts -->
+            <script src="/theme/js/jquery.min.js"></script>
+            <script src="/theme/js/jquery.scrollzer.min.js"></script>
+            <script src="/theme/js/jquery.scrolly.min.js"></script>
+            <script src="/theme/js/skel.min.js"></script>
+            <script src="/theme/js/util.js"></script>
+            <!--[if lte IE 8]><script src="theme/js/ie/respond.min.js"></script><![endif]-->
+            <script src="/theme/js/main.js"></script>
+
+</body>
+</html>
