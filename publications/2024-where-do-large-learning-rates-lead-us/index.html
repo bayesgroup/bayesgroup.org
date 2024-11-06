@@ -12,12 +12,12 @@
 </script>
 
         
-        <title>Maxim Kodryan – Bayesian Methods Research Group</title>
+        <title>Where Do Large Learning Rates Lead Us? (NeurIPS 2024) – Bayesian Methods Research Group</title>
         <meta property="twitter:site" content="@bayesgroup" />
         <meta property="twitter:card" content="summary" />
-        <meta property="og:title" content="Maxim Kodryan – Bayesian Methods Research Group" />
-        <meta property="og:description" content="from Bremen, Germany" />
-        <meta property="og:image" content="http://bayesgroup.org/photos/kodryan.jpg" />
+        <meta property="og:title" content="Where Do Large Learning Rates Lead Us? (NeurIPS 2024) – Bayesian Methods Research Group" />
+        <meta property="og:description" content="It is generally accepted that starting neural networks training with large learning rates (LRs) improves generalization. Following a line of research devoted to understanding this effect, we conduct an empirical study in a controlled setting focusing..." />
+        <meta property="og:image" content="http://bayesgroup.org/theme/images/bayesgroup_opengraph.png" />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--[if lte IE 8]><script src="/theme/js/ie/html5shiv.js"></script><![endif]-->
@@ -36,8 +36,8 @@
                 <nav id="nav">
                     <ul>
                                 <li><a href="/about/">About</a></li>
-                                <li class="active"><a href="/people">People</a></li>
-                                <li><a href="/publications">Publications</a></li>
+                                <li><a href="/people">People</a></li>
+                                <li class="active"><a href="/publications">Publications</a></li>
                                 <li><a href="/teaching">Teaching</a></li>
                                 <li><a href="/admission/">Admission</a></li>
                                 <li><a href="/alumni/">Alumni</a></li>
@@ -64,45 +64,62 @@
 
                 <!-- Main -->
                     <div id="main">
-<section id="page">
+<section id="publication-page">
 	<div class="container">
 		<header class="major">
-			<h2>Maxim Kodryan</h2>
+			<h2><span class="ribbon-container"><span class="ribbon-left ribbon-green" title="Thirty-eighth Conference on Neural Information Processing Systems">NeurIPS 2024</span></span> Where Do Large Learning Rates Lead Us?</h2>
+            <div class="publication-authors">
+            <ol>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Ildus Sadrtdinov" /> Ildus Sadrtdinov
+                </li>
+
+                <li class="author">
+                    <a href="/people/maxim-kodryan/">
+                    <img src="/photos/kodryan.jpg" alt="Photo Maxim Kodryan" /> Maxim Kodryan
+                    </a>
+                </li>
+
+                <li class="author-unknown">
+                    <img src="/photos/unknown.png" alt="Photo Eduard Pokonechny" /> Eduard Pokonechny
+                </li>
+
+                <li class="author-alumni">
+                    <a href="/alumni/#ekaterina-lobacheva">
+                    <img src="/photos/lobacheva.jpg" alt="Photo Ekaterina Lobacheva" /> Ekaterina Lobacheva
+                    </a>
+                </li>
+
+                <li class="author">
+                    <a href="/people/dmitry-vetrov/">
+                    <img src="/photos/vetrov.jpg" alt="Photo Dmitry Vetrov" /> Dmitry Vetrov
+                    </a>
+                </li>
+            </ol>
+            </div>
 		</header>
 
-    
+    <p>It is generally accepted that starting neural networks training with large learning
+rates (LRs) improves generalization. Following a line of research devoted to
+understanding this effect, we conduct an empirical study in a controlled setting
+focusing on two questions: 1) how large an initial LR is required for obtaining
+optimal quality, and 2) what are the key differences between models trained with
+different LRs? We discover that only a narrow range of initial LRs slightly above
+the convergence threshold lead to optimal results after fine-tuning with a small
+LR or weight averaging. By studying the local geometry of reached minima, we
+observe that using LRs from this optimal range allows for the optimization to locate
+a basin that only contains high-quality minima. Additionally, we show that these
+initial LRs result in a sparse set of learned features, with a clear focus on those
+most relevant for the task. In contrast, starting training with too small LRs leads
+to unstable minima and attempts to learn all features simultaneously, resulting in
+poor generalization. Conversely, using initial LRs that are too large fails to detect a basin with good solutions and extract meaningful patterns from the data.</p>
 
-    <h4>Recent Publications</h4>
-    <ul id="recent-publications-list">
-            <li>
-                <b><a href="/publications/2024-where-do-large-learning-rates-lead-us/">Where Do Large Learning Rates Lead Us?</a></b>
-                (2024)
-<span class="ribbon-container"><span class="ribbon-right ribbon-teal" title="Thirty-eighth Conference on Neural Information Processing Systems">NeurIPS 2024</span></span>            </li>
-            <li>
-                <b><a href="/publications/2023-mars-masked-automatic-ranks-selection-in-tensor-decompositions/">MARS: Masked Automatic Ranks Selection in Tensor Decompositions</a></b>
-                (2023)
-<span class="ribbon-container"><span class="ribbon-right ribbon-teal" title="The 26th International Conference on Artificial Intelligence and Statistics">AISTATS 2023</span></span>            </li>
-            <li>
-                <b><a href="/publications/2023-large-learning-rates-improve-generalization-but-how-large-are-we-talking-about/">Large Learning Rates Improve Generalization: But How Large Are We Talking About?</a></b>
-                (2023)
-<span class="ribbon-container"><span class="ribbon-right ribbon-teal" title="NeurIPS Workshop Mathematics of Modern Machine Learning (M3L)">NeurIPS 2023 Workshop M3L</span></span>            </li>
-            <li>
-                <b><a href="/publications/2022-training-scale-invariant-neural-networks-on-the-sphere-can-happen-in-three-regimes/">Training Scale-Invariant Neural Networks on the Sphere Can Happen in Three Regimes</a></b>
-                (2022)
-<span class="ribbon-container"><span class="ribbon-right ribbon-teal" title="Thirty-sixth Conference on Neural Information Processing Systems">NeurIPS 2022</span></span>            </li>
-            <li>
-                <b><a href="/publications/2021-on-the-periodic-behavior-of-neural-network-training-with-batch-normalization-and-weight-decay/">On the Periodic Behavior of Neural Network Training with Batch Normalization and Weight Decay</a></b>
-                (2021)
-<span class="ribbon-container"><span class="ribbon-right ribbon-teal" title="Advances in Neural Information Processing Systems 34">NeurIPS 2021</span></span>            </li>
-            <li>
-                <b><a href="/publications/2020-on-power-laws-in-deep-ensembles-full/">On Power Laws in Deep Ensembles</a></b>
-                (2020)
-<span class="ribbon-container"><span class="ribbon-right ribbon-teal" title="Thirty-fourth Conference on Neural Information Processing Systems">NeurIPS 2020</span></span>            </li>
-            <li>
-                <b><a href="/publications/#pub-n1000">On Power Laws in Deep Ensembles</a></b>
-                (2020)
-            </li>
-    </ul>
+            <div class="publication-links">
+<a href ="https://arxiv.org/pdf/2410.22113" class="publication-paper-link" title="Link to paper">paper</a>            </div>
+
+
+
     </div>
 </section>
                     </div>
